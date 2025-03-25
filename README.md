@@ -104,6 +104,11 @@ Tuning the Frequencies: Robust Training for Sinusoidal Neural Networks<br>
 <li>
 Blind-Spot Real-world Image Denoising via Implicit Neural Pixel Resampling<br>
 </li>
+<li>
+Few-shot Implicit Function Generation via Equivariance<br>
+<a href="https://arxiv.org/pdf/2501.01601" >[paper]</a> 
+</li>
+
 </ul>
 </details>
 
@@ -257,6 +262,23 @@ HiNeRV: Video Compression with Hierarchical Encoding-based Neural Representation
   <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/e5dc475c370ff42f2f96dddf8191a40c-Paper-Conference.pdf" >[paper]</a> 
   <a href="https://github.com/hmkx/HiNeRV" >[code]</a>
 </li>
+<li>
+Continuous Heatmap Regression for Pose Estimation via Implicit Neural Representation<br>
+  <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/b90cb10d4dae058dd167388e76168c1b-Paper-Conference.pdf" >[paper]</a> 
+  <a href="https://github.com/hushengxiang/NerPE" >[code]</a>
+</li>
+
+<li>
+Cross-Scale Self-Supervised Blind Image Deblurring
+via Implicit Neural Representation<br>
+  <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/0d67ec04032cccf4a21d04c0ae4ab268-Paper-Conference.pdf" >[paper]</a> 
+</li>
+<li>
+Score-based 3D molecule generation with neural fields<br>
+  <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/1486bbd863ba396398ff4227c5b3dccd-Paper-Conference.pdf" >[paper]</a> 
+</li>
+
+
 </ul>
 </details>
 
@@ -316,9 +338,18 @@ Fast Encoding and Decoding for Implicit Video Representation<br>
 <details span>
 <summary><b>MM 2024</b></summary>
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
+<li>
+QS-NeRV: Real-Time Quality-Scalable Decoding with Neural Representation for Videos<br>
+  <a href="https://dl.acm.org/doi/pdf/10.1145/3664647.3680586" >[paper]</a> 
+</li>
+<li>
+Achieving Resolution-Agnostic DNN-based Image Watermarking: A Novel Perspective of Implicit Neural Representation<br>
+  <a href="https://arxiv.org/pdf/2405.08340" >[paper]</a> 
+</li>
+<li>
+HINER: Neural Representation for Hyperspectral Image<br>
+  <a href="https://arxiv.org/pdf/2407.21395" >[paper]</a> 
+</li>
 </ul>
 </details>
 
@@ -344,17 +375,16 @@ Nonparametric Teaching of Implicit Neural Representations<br>
 Quantum Implicit Neural Representations<br>
   <a href="https://proceedings.mlr.press/v235/zhao24l.html" >[paper]</a> 
 </li>
+
+<li>
+Few-Shot Unsupervised Implicit Neural Shape Representation Learning with Spatial Adversaries<br>
+  <a href="https://arxiv.org/pdf/2408.15114" >[paper]</a> 
+</li>
+
 </ul>
 </details>
 
 
-<details span>
-<summary><b>IJCAI 2024</b></summary>
-<ul>
-  <li></li>
-  <li></li>
-  <li></li>
-</ul>
 </details>
 
 
