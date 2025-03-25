@@ -384,9 +384,24 @@ Few-Shot Unsupervised Implicit Neural Shape Representation Learning with Spatial
 </ul>
 </details>
 
-
+----
+<details span>
+<summary><b>CVPR 2024</b></summary>
+<ul>
+</ul>
 </details>
 
+<details span>
+<summary><b>ICLR 2024</b></summary>
+<ul>
+<li>
+Graph Neural Networks for Learning Equivariant Representations of Neural Networks<br>
+  <a href="https://arxiv.org/pdf/2403.12143" >[paper]</a> 
+  <a href="https://github.com/mkofinas/neural-graphs" >[code]</a> 
+</li>
+
+</ul>
+</details>
 
 ## Survey, Benchmark and Important Papers
 ---
@@ -394,6 +409,18 @@ Few-Shot Unsupervised Implicit Neural Shape Representation Learning with Spatial
 *(ICCV'2023)* **Implicit Neural Representation in Medical Imaging: A Comparative Survey**<br>
 [[paper]](https://arxiv.org/abs/2111.05849) [[code]](https://github.com/xmindflow/Awesome-Implicit-Neural-Representations-in-Medical-imaging)<br>
 
+### Datasets & Benchmark
+
+*(ICML'2022)* **From data to functa: Your data point is a function and you can treat it like one**<br>
+[[paper]](https://arxiv.org/pdf/2201.12204) [[code]](https://github.com/google-deepmind/functa)<br>
+
+*(NeurIPS'2024)* **Implicit Zoo: A Large-Scale Dataset of Neural Implicit Functions for 2D Images and 3D Scene**<br>
+[[paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/a1aa1edb47567545a4b037a95d658e6f-Paper-Datasets_and_Benchmarks_Track.pdf) [[code]](https://github.com/qimaqi/Implicit-Zoo)<br>
+
+*(CVPR'2024)* **How to Train Neural Field Representations: A Comprehensive Study and Benchmark**<br>
+[[paper]](https://arxiv.org/abs/2312.10531) [[code]](https://github.com/samuelepapa/fit-a-nef)
+[[website]](https://fit-a-nef.github.io/)
+<br>
 
 ### Important Papers
 *(NeurIPS'2020)* **(SIREN) Implicit Neural Representations with Periodic Activation Functions**<br>
@@ -438,6 +465,18 @@ Few-Shot Unsupervised Implicit Neural Shape Representation Learning with Spatial
 
 *(ICLR 2025)* **Fast Training of Sinusoidal Neural Fields via Scaling Initialization**<br>
 [[paper]](https://arxiv.org/abs/2410.04779)<br>
+
+
+### Auxiliary Network
+
+*(ICCV 2021)* **Modulated Periodic Activations for Generalizable Local Functional Representations**<br>
+[[paper]](https://arxiv.org/abs/2104.03960)
+[[website]](https://ishit.github.io/modsine/)
+
+*(WACV 2025)* **INCODE: Implicit Neural Conditioning with Prior Knowledge Embeddings**<br>
+[[paper]](https://arxiv.org/abs/2310.18846)
+[[code]](https://github.com/xmindflow/INCODE)
+[[website]](https://xmindflow.github.io/incode)
 
 
 ### Partition-based Acceleration
@@ -489,9 +528,96 @@ Few-Shot Unsupervised Implicit Neural Shape Representation Learning with Spatial
 
 ## Capability Exploration
 
+### Neural Functional & Functa
+
+*(ICML'2022)* **From data to functa: Your data point is a function and you can treat it like one**<br>
+[[paper]](https://arxiv.org/pdf/2201.12204) [[code]](https://github.com/google-deepmind/functa)<br>
+
+*(NeurIPS'2023)* **Permutation Equivariant Neural Functionals**<br>
+[[paper]](https://arxiv.org/abs/2302.14040) [[code]](https://github.com/AllanYangZhou/nfn?tab=readme-ov-file)<br>
+
+*(NeurIPS'2023)* **Neural Functional Transformers**<br>
+[[paper]](https://arxiv.org/abs/2305.13546) [[code]](https://github.com/AllanYangZhou/nfn?tab=readme-ov-file)<br>
+
+*(ICLR'2024)* **Graph Neural Networks for Learning Equivariant Representations of Neural Networks**<br>
+[[paper]](https://arxiv.org/abs/2403.12143) [[code]](https://github.com/mkofinas/neural-graphs?tab=readme-ov-file)<br>
+
+
+### Implicit Editing
+
+*(NeurIPS'2024)* **Towards Croppable Implicit Neural Representations**<br>
+[[paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/37eb3a53e5931a811c1a9498edce298a-Paper-Conference.pdf) 
+[[code]](https://github.com/maorash/Local-Global-INRs)
+[[website]](https://sites.google.com/view/local-global-inrs)<br>
+ 
+
+### Explanation & Visualization
+
+*(CVPR'2024)* **Explaining the Implicit Neural Canvas: Connecting Pixels to Neurons by Tracing their Contributions**<br>
+[[paper]](https://arxiv.org/pdf/2401.10217) 
+[[code]](https://github.com/namithap10/xinc)
+[[website]](https://namithap10.github.io/xinc/)<br>
+
+
+
 ## Downstream Applications
 ### Compression
+
 ### Image Enhancement
+
+
+*(CVPR'2024)* **Bidirectional Multi-Scale Implicit Neural Representations for Image Deraining**<br>
+[[paper]](https://arxiv.org/abs/2404.01547) 
+[[code]](https://github.com/cschenxiang/NeRD-Rain?tab=readme-ov-file)
+<br>
+
+*(NeurIPS'2024)* **Cross-Scale Self-Supervised Blind Image Deblurring via Implicit Neural Representation**<br>
+[[paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/0d67ec04032cccf4a21d04c0ae4ab268-Paper-Conference.pdf) 
+[[code]](https://github.com/cschenxiang/NeRD-Rain?tab=readme-ov-file)
+<br>
+
+*(ECCV'2024)* **Fast Context-Based Low-Light Image Enhancement via Neural Implicit Representations**<br>
+[[paper]](https://proceedings.mlr.press/v235/saratchandran24a.html) 
+[[code]](https://github.com/ctom2/colie)
+<br>
+
+
+### Generation
+
+*(CVPR'2023)* **Implicit Diffusion Models for Continuous Super-Resolution**<br>
+[[paper]](https://arxiv.org/abs/2303.16491) 
+[[code]](https://github.com/Ree1s/IDM)
+<br>
+
+*(ICLR'2024)* **DDMI: Domain-agnostic Latent Diffusion Models for Synthesizing High-Quality Implicit Neural Representations**<br>
+[[paper]](https://arxiv.org/abs/2401.12517) 
+[[code]](https://github.com/mlvlab/DDMI)
+<br>
+
+*(NeurIPS'2024)* **Score-based 3D Molecule Generation with Neural Fields**<br>
+[[paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/1486bbd863ba396398ff4227c5b3dccd-Paper-Conference.pdf) 
+
+
+*(CVPR'2024)* **Image Neural Field Diffusion Models**<br>
+[[paper]](https://arxiv.org/abs/2406.07480) 
+[[code]](https://github.com/yinboc/infd)
+<br>
+
+*(CVPR'2025)* **Few-shot Implicit Function Generation via Equivariance**<br>
+[[paper]](https://www.arxiv.org/abs/2501.01601) 
+<br>
+
+### Anomaly Detection
+*(KDD'2025)* **TSINR: Capturing Temporal Continuity via Implicit Neural Representations for Time Series Anomaly Detection**<br>
+[[paper]](https://arxiv.org/pdf/2411.11641) 
+[[code]](https://github.com/Leanna97/TSINR)
+
+
+
+
+
+
+
 
 
 
